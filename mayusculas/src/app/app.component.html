@@ -1,0 +1,26 @@
+<h1>Mayúsculas</h1>
+
+<div class="contenedor-versiones">
+  <h2>Introduce un mensaje (v1):</h2>
+  <div>
+    <input type="text" id="textoOriginal" [(ngModel)]="textoOriginal">
+  </div>
+  <div class="boton">
+    <button type="button" (click)="convertirmayusculas()">Transformar</button>
+  </div>
+  <h2>Texto en mayúsculas:</h2>
+  <div class="contenedor-texto-mayusculas">
+    {{textoOriginal}}
+  </div>
+</div>
+
+<div class="contenedor-versiones">
+  <h2>Introduce un mensaje (v2):</h2>
+  <div>
+    <input type="text" id="textoOriginal" [(ngModel)]="textoOriginal">
+  </div>
+  <h2>Texto en mayúsculas:</h2>
+  <div class="contenedor-texto-mayusculas">
+    {{textoOriginal}}
+  </div>
+</div>

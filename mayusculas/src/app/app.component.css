@@ -1,0 +1,26 @@
+.contenedor-versiones {
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+
+}
+
+.boton {
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.contenedor-texto-mayusculas {
+    text-transform: uppercase;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
