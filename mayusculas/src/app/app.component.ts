@@ -8,11 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'mayusculas';
 
-  textoOriginal: string = 'hola';
+  textoOriginal1: string = 'hola';
+  textoOriginal2: string = 'hola';
   textoMayusculas: string = 'HOLA';
 
-  convertirmayusculas() {
-    this.textoOriginal.toUpperCase
+  convertirmayusculas1() {
+    this.textoOriginal1.toUpperCase
+  }
+  convertirmayusculas2() {
+    this.textoOriginal2.toUpperCase
   }
 
 
