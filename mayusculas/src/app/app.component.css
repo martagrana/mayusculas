@@ -15,7 +15,7 @@
 }
 
 .contenedor-texto-mayusculas {
-    text-transform: uppercase;
+    /* text-transform: uppercase;*/
     border-style: groove;
     border-color: black;
     border-radius: 5px;

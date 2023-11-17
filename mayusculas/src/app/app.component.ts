@@ -10,13 +10,15 @@ export class AppComponent {
 
   textoOriginal1: string = 'hola';
   textoOriginal2: string = 'hola';
-  textoMayusculas: string = 'HOLA';
+
+  textoMayusculas1: string = 'HOLA';
+  textoMayusculas2: string = 'HOLA';
 
   convertirmayusculas1() {
-    this.textoOriginal1.toUpperCase
+    this.textoMayusculas1 = this.textoOriginal1.toUpperCase()
   }
   convertirmayusculas2() {
-    this.textoOriginal2.toUpperCase
+    this.textoMayusculas2 = this.textoOriginal2.toUpperCase()
   }
 
 
