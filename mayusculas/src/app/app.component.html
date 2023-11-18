@@ -3,24 +3,24 @@
 <div class="contenedor-versiones">
   <h2>Introduce un mensaje (v1):</h2>
   <div>
-    <input type="text" id="textoOriginal" [(ngModel)]="textoOriginal1">
+    <input type="text" [(ngModel)]="textoOriginalv1">
   </div>
   <div class="boton">
-    <button type="button" (click)="convertirmayusculas1()">Transformar</button>
+    <button type="button" (click)="convertirMayusculas1()">Transformar</button>
   </div>
   <h2>Texto en mayúsculas:</h2>
   <div class="contenedor-texto-mayusculas">
-    {{textoMayusculas1}}
+    {{textoMayusculasv1}}
   </div>
 </div>
 
 <div class="contenedor-versiones">
   <h2>Introduce un mensaje (v2):</h2>
   <div>
-    <input type="text" id="textoOriginal" [(ngModel)]="textoOriginal2">
+    <input type="text" [(ngModel)]="textoOriginalv2">
   </div>
   <h2>Texto en mayúsculas:</h2>
-  <div class="contenedor-texto-mayusculas2">
-    {{textoOriginal2}}
+  <div class="contenedor-texto-mayusculasv2 contenedor-texto-mayusculas">
+    {{textoOriginalv2}}
   </div>
 </div>
