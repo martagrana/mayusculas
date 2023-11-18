@@ -24,3 +24,14 @@
     width: 400px;
     text-align: center;
 }
+
+.contenedor-texto-mayusculas2 {
+    text-transform: uppercase;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
